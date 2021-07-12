@@ -5,10 +5,25 @@ body {
     font-size: 15px;
     font-family: "Lexend Deca", sans-serif;
     color: hsla(0, 0%, 100%, 0.75);
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.all-container {
+    display: flex;
+    flex-flow: row wrap-reverse;
 }
 
 .info-container {
     background: hsl(244, 38%, 16%);
+}
+
+.txt-container {
 }
 
 .txt-container h1 {
@@ -21,10 +36,21 @@ body {
     color: hsl(277, 64%, 61%);
 }
 
+.stats-container {
+    display: flex;
+}
+
+.bus-stats {
+    
+}
+.stats-container p {
+    color: hsla(0, 0%, 100%, 0.6);
+}
 .stats {
     font-family: "Inter", sans-serif;
     color: hsl(0, 0%, 100%);
     font-size: 1.5em;
+    font-weight: 700;
 }
 
 
